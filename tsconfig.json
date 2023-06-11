@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}
